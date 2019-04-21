@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+
 
 
 from scipy.misc import derivative
 import numpy as np
 
 
-# In[2]:
+
 
 
 def f(x):
     return x**4 + np.exp(-x)
 
 
-# In[3]:
+
 
 
 print("Введите погрешность")
@@ -38,7 +38,7 @@ print("При погрешности", eps, 'функция достигает �
 print("Её значение там", f(yk))
 
 
-# In[ ]:
+
 
 
 
