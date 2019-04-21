@@ -12,7 +12,7 @@ import numpy as np
 
 
 def f(x):
-    return x**4 + np.exp(-x)
+    return x**4 + np.exp(-x) #your func
 
 
 
